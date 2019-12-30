@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QUİZAPP", "QUİZAPP\QUİZAPP.csproj", "{03AA96A8-A0A6-4EEA-85DD-1C14ADC98F92}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F100A401-C399-4F83-A453-1AF195F0127C} = {F100A401-C399-4F83-A453-1AF195F0127C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{DF52E159-1D80-4C7F-B993-F76646404B9B}"
 EndProject
